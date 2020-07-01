@@ -168,7 +168,7 @@ body {
 
 .word {
     position: absolute;
-    background: white;
+    background: transparent;
     white-space: nowrap;
     line-height: 1;
 }
@@ -200,6 +200,7 @@ body {
 #q-top-layer {
     color: #e8bc4f;
     font-family: 'Courgette', cursive;
+    font-size: 1.2em;
 }
 
 .quotee {
