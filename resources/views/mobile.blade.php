@@ -8,7 +8,7 @@
     </div>
 
     <div class="d-flex justify-content-center">
-        <img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px;">
+        <img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px; height: auto;">
     </div>
     <div class="row mt-4 mx-0">
         <div class="col p-0">

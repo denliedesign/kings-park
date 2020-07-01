@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="d-flex justify-content-center">
-        <a href="/"><img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px;"></a>
+        <a href="/"><img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px; height: auto;"></a>
     </div>
 
     <div class="bg-blue-fade py-5 mt-5 d-flex justify-content-center">
@@ -30,7 +30,7 @@
                 <img src="/images/teams4.jpeg" alt="" class="img-fluid mb-3">
                 <img src="/images/teams5.jpeg" alt="" class="img-fluid mb-3">
                 <img src="/images/teams6.jpeg" alt="" class="img-fluid mb-3">
-                <img src="/images/teams7.jpeg" alt="" class="img-fluid mb-3">
+{{--                <img src="/images/team7.jpeg" alt="" class="img-fluid mb-3">--}}
                 <img src="/images/teams8.jpeg" alt="" class="img-fluid mb-3">
                 <img src="/images/teams9.jpeg" alt="" class="img-fluid mb-3">
                 <img src="/images/teams10.jpg" alt="" class="img-fluid mb-3">

@@ -46,7 +46,7 @@
         </div>
 
         <div class="d-flex justify-content-center">
-            <img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px;">
+            <img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px; height: auto;">
         </div>
         <div class="row mt-4 mx-0">
             <div class="col p-0">
@@ -106,7 +106,7 @@
             </div>
             <div class="rellax" data-rellax-speed="1" data-rellax-zindex="2" id="q-mid-top-layer">
                 <p class="word" id="word8">Our daughter's second home
-                    <br><span class="quotee">- Lobardis</span>
+                    <br><span class="quotee">- Lombardis</span>
                 </p>
                 <p class="word" id="word9">Dedicated teachers and staff
                     <br><span class="quotee">- Amy F</span>
