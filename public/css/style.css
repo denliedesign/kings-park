@@ -377,8 +377,9 @@ label {
 
 .page-title,
 .page-title-small {
+    background: -webkit-gradient(linear, left top, left bottom, from(#8a33ac), to(#e8bc4f));
     background: linear-gradient(to right, #8a33ac, #e8bc4f);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-weight: 900;
