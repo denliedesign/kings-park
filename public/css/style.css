@@ -1,0 +1,648 @@
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****STOPLIGHT****/
+
+.show-info {
+    display: block !important;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 15px 15px 15px 0;
+    box-shadow: 2px 2px 4px black;
+    padding: 5px 10px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+#stoplight {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    z-index: 4;
+}
+
+.stoplight-col {
+    padding: 0 !important;
+    height: 50px;
+    width: 50px;
+}
+
+.triangle-top-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid #192328;
+    border-left: 25px solid transparent;
+    filter: brightness(200%);
+}
+
+.stop-block {
+    height: 50px;
+    width: 50px;
+    background: #192328;
+    position: relative;
+    filter: brightness(200%);
+}
+
+.light-circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 17.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -17.5px;
+    margin-left: -17.5px;
+}
+
+.red-light {
+    background: red;
+    border: 2px solid red;
+    opacity: 100%;
+    filter: brightness(125%) blur(1px);
+}
+
+.yellow-light {
+    background: yellow;
+    border: 2px solid yellow;
+    opacity: 25%;
+    filter: brightness(25%) blur(0);
+}
+
+.green-light {
+    background: green;
+    border: 2px solid green;
+    opacity: 25%;
+    filter: brightness(25%) blur(0);
+}
+
+.red-light:hover {
+    transform: scale(1.1);
+}
+
+.triangle-top-left {
+    width: 0;
+    height: 0;
+    border-top: 25px solid #192328;
+    border-right: 25px solid transparent;
+    filter: brightness(200%);
+}
+
+/****END STOPLIGHT****/
+
+.box{
+    position: fixed;
+    top: 0;
+    right: 0;
+    float: right;
+    overflow: hidden;
+    display: none;
+    background: rgba(232, 188, 79, 1);
+    z-index: 4;
+}
+
+.box-inner{
+    width: 400px;
+    height: 100vh;
+}
+
+.list-group-item {
+    background: rgba(232, 188, 79, 1);
+    border: none;
+    font-size: 1.4em;
+    line-height: 1.25;
+}
+
+/*.list-group-item:hover {*/
+/*    color: #8a33ac;*/
+/*}*/
+
+.list-group-item a {
+    background: -webkit-gradient(linear, left top, left bottom, from(#8a33ac), to(#8a33ac)) left no-repeat, #fbfdff;
+    background: linear-gradient(#8a33ac, #8a33ac) left no-repeat, #fbfdff;
+    background-size: 0% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.list-group-item a:hover {
+    background-size: 100% 100%;
+}
+
+.box-inner a {
+    text-decoration: none;
+}
+
+#nav {
+    font-size: 2em;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 2px 2px 4px gray;
+    position: fixed;
+}
+
+#nav ion-icon {
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.slide-toggle {
+    position: absolute;
+    top: 50px;
+    right: 75px;
+    z-index: 5;
+}
+
+#parallax-quotes {
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.word {
+    position: absolute;
+    background: white;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+#q-back-layer {
+    font-size: 1.75em;
+    opacity: 10%;
+    font-weight: 900;
+}
+
+#q-mid-back-layer {
+    font-size: 1.5em;
+    /*color: #8a33ac;*/
+    opacity: 60%;
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke: 1px #9cdbe1;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+}
+
+#q-mid-top-layer {
+    font-size: 1.1em;
+    color: #8a33ac;
+    opacity: 50%;
+    font-weight: 700;
+}
+
+#q-top-layer {
+    color: #e8bc4f;
+    font-family: 'Courgette', cursive;
+}
+
+.quotee {
+    font-size: 12px;
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Courgette', cursive;
+    -webkit-text-stroke: 0 transparent;
+    text-shadow: none;
+    text-transform: capitalize;
+}
+
+.bg-blue-fade {
+    background: linear-gradient(to right, #9cdbe1, white);
+}
+
+.bg-blue-fade-flip {
+    background: linear-gradient(to left, #9cdbe1, white);
+}
+
+.purple-box {
+    background: #8a33ac;
+    width: 175px;
+    height: 175px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: right;
+    line-height: 1;
+}
+
+.purple-box-flip {
+    background: #8a33ac;
+    width: 175px;
+    height: 175px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: left;
+    line-height: 1;
+}
+
+.purple-rectangle {
+    background: #8a33ac;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: left;
+    line-height: 1;
+    box-shadow: 2px 2px 4px black;
+}
+
+#why-list span {
+    color: #e8bc4f;
+    font-size: 1.5em;
+    font-family: 'Courgette', cursive;
+}
+
+.try-txt {
+    padding: 0;
+    margin: 0;
+    font-size: 0.7em;
+    text-transform: lowercase;
+    text-align: left;
+}
+
+.gold-head { background: #e8bc4f; color: white; }
+.gold-bar { height: 2px; width: 75%; background: #e8bc4f; }
+.gold-btn { background: transparent; border: 2px solid #e8bc4f; text-transform: uppercase; }
+.gold-btn:hover { background: #e8bc4f; color: white; }
+
+.purple-head { background: #8a33ac; color: white; }
+.purple-bar { height: 2px; width: 75%; background: #8a33ac; }
+.purple-btn { background: transparent; border: 2px solid #8a33ac; text-transform: uppercase; }
+.purple-btn:hover { background: #8a33ac; color: white; }
+
+.blue-head { background: #9cdbe1; color: white; }
+.blue-bar { height: 2px; width: 75%; background: #9cdbe1; }
+.blue-btn { background: transparent; border: 2px solid #9cdbe1; text-transform: uppercase; }
+.blue-btn:hover { background: #9cdbe1; color: white; }
+
+.black-head { background: black; color: white; }
+.black-bar { height: 2px; width: 75%; background: black; }
+.black-btn { background: transparent; border: 2px solid black; text-transform: uppercase; }
+.black-btn:hover { background: black; color:white; }
+
+.class-style-title {
+    font-size: 1.75em;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.card-columns {
+    column-count: 2;
+}
+
+/* for phone only */
+@media only screen and (max-width: 599px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+
+#mosaic-quote {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#mosaic-quote span {
+    background: linear-gradient(to left, white, #9cdbe1);
+    padding: 5px;
+    border-radius: 5px;
+    color: #8a33ac;
+    font-family: 'Courgette', cursive;
+}
+
+.table {
+    line-height: 0.3;
+    color: white;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: right;
+    background: #8a33ac;
+    border: 1px solid #e8bc4f !important;
+}
+
+.map iframe {
+    border: 2px solid #8a33ac;
+}
+
+.contact-title {
+    background: #8a33ac;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel-control-panel {
+    list-style-type: none;
+    cursor: pointer;
+    font-family: 'Courgette', cursive;
+}
+
+
+.carousel-control-panel li {
+    padding: 5px 10px;
+    /*border-bottom: 2px solid black;*/
+    /*border-right: 2px solid black;*/
+    box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.7);
+    border-radius: 10px 10px 0 0;
+    transition: 0.8s ease all;
+}
+
+.carousel-control-panel li:hover {
+    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.form-group, label {
+    margin: 0;
+}
+
+label {
+    font-size: 0.7em;
+}
+
+.page-title,
+.page-title-small {
+    background: linear-gradient(to right, #8a33ac, #e8bc4f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    /*text-shadow: 1px 1px 2px gray;*/
+    transform: rotate(-10deg);
+}
+
+.page-title {
+    font-size: 3em;
+}
+
+.page-title-small {
+    font-size: 1.75em;
+}
+
+.purple-box-head {
+    background: transparent;
+    height: 225px;
+    width: 225px;
+    transform: rotate(10deg);
+    box-shadow: 2px 2px 4px #e8bc4f,
+    -2px -2px 4px #8a33ac;
+}
+
+#staff {
+    height: 100vh;
+}
+
+.relative-img-wrap {
+    position: relative;
+}
+
+.purple-overlap-box {
+    background: #8a33ac;
+    width: 445px;
+    height: 593px;
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    z-index: -1;
+}
+
+.purple-overlap-square {
+    background: #8a33ac;
+    width: 445px;
+    height: 333px;
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    z-index: -1;
+}
+
+.purple-overlap-square-left {
+    background: #8a33ac;
+    width: 445px;
+    height: 333px;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    z-index: -1;
+}
+
+.confetti-fg {
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+.about-name, .about-name-sm {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: -10px;
+    z-index: 3;
+}
+
+.about-name {
+    font-size: 3em;
+    bottom: -50px;
+}
+
+.about-name-sm {
+    font-size: 2.5em;
+    bottom: -45px;
+}
+
+.design-1 {
+    color: #e8bc4f;
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+}
+
+.design-2 {
+    color: #8a33ac;
+    font-weight: 600;
+}
+
+.design-3 {
+    color: black;
+    text-transform: lowercase;
+    font-size: 0.8em;
+    font-family: 'Courgette', cursive;
+}
+
+.design-4 {
+    color: white;
+    -webkit-text-stroke: 1px #9cdbe1;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.25em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#national {
+    position: relative;
+    height: 300px;
+}
+
+#national-title {
+    font-size: 1.5em;
+    font-family: 'Courgette', cursive;
+    /*text-transform: uppercase;*/
+    font-weight: 800;
+    margin-bottom: -12px;
+    opacity: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#national-years {
+    font-weight: 900;
+    font-size: 3em;
+    opacity: 60%;
+    color: white;
+    margin-top: 0;
+    background: linear-gradient(to right, #8a33ac, transparent);
+    border-radius: 5px;
+}
+
+#call, .purple-txt {
+    color: #8a33ac;
+}
+
+#auditions {
+    font-size: 1.5em;
+}
+
+.gold-divide {
+    height: 1px;
+    width: 20%;
+    opacity: 75%;
+    background: #e8bc4f;
+    margin: 20px auto;
+}
+
+#recital-title {
+    font-size: 1.5em;
+    color: #8a33ac;
+    font-weight: 700;
+}
+
+.card-gradient {
+    color: white;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: 800;
+    border: 2px solid white;
+    height: 250px;
+    box-shadow: 2px 2px 4px black;
+    transition: box-shadow 0.4s ease;
+}
+
+.gradient-purple {
+    background: linear-gradient(to bottom right, #8a33ac, black);
+}
+
+.gradient-blue {
+    background: linear-gradient(to bottom right, #9cdbe1, black);
+}
+
+.gradient-gold {
+    background: linear-gradient(to bottom right, #e8bc4f, black);
+}
+
+.card-gradient:hover {
+    box-shadow: 4px 4px 8px black;
+}
+
+.class-cat-1 { background: #e8bc4f; }
+.class-cat-2 { background: #8a33ac; }
+.class-cat-3 { background: #9cdbe1; }
+.class-cat-4 { background: black; }
+
+.class-cat-1 .btn,
+.class-cat-2 .btn,
+.class-cat-3 .btn,
+.class-cat-4 .btn {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-about-txt {
+    color: #8a33ac;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Courgette', cursive;
+}
+
+.main-about-span {
+    font-size: 1.75em;
+    line-height: 1;
+    background: linear-gradient(to right, #e8bc4f, transparent);
+    padding: 5px 10px;
+    border-radius: 10px 0 0 10px;"
+}
+
+.class-desc {
+    font-size: 0.5em;
+    font-weight: 400;
+}
+
+#about-welcome span {
+    font-family: 'Courgette', cursive;
+    font-size: 1.25em;
+    color: #e8bc4f;
+}
+
+#numbers-and-icons {
+    color: purple;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-locations-inner {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding: 10px 10px 0 10px;
+    margin-top: -15px;
+    border-radius: 10px;
+}
+
+#numbers-and-icons ion-icon {
+    font-size: 2.75em;
+}
+
+.style-class-title {
+    font-family: 'Courgette', cursive;
+    font-size: 1.25em;
+}
+
+.btn-style-reg {
+    background: #e8bc4f;
+    color: #8a33ac;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    transition: all 0.4s ease;
+}
+
+.btn-style-reg:hover {
+    color: #8a33ac;
+    background: #D5A327;
+}
