@@ -1,2 +1,3 @@
+Sitemap: https://www.kpdancecenter.com/sitemap.xml
 User-agent: *
-Disallow:
+Disallow: /*.html$
