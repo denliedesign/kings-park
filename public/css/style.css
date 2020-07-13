@@ -60,8 +60,8 @@ body {
 .red-light {
     background: red;
     border: 2px solid red;
-    opacity: 100%;
-    filter: brightness(125%) blur(1px);
+    opacity: 25%;
+    filter: brightness(25%) blur(0);
 }
 
 .yellow-light {
@@ -74,11 +74,11 @@ body {
 .green-light {
     background: green;
     border: 2px solid green;
-    opacity: 25%;
-    filter: brightness(25%) blur(0);
+    opacity: 100%;
+    filter: brightness(125%) blur(1px);
 }
 
-.red-light:hover {
+.green-light:hover {
     transform: scale(1.1);
 }
 

@@ -4,7 +4,8 @@
     @include('mobile')
     <div id="laptop-intro" class="d-none d-md-block">
         <div class="d-none stoplight-info">
-            <p class="mb-0">Classes moved to online only</p>
+{{--            <p class="mb-0">Classes moved to online only</p>--}}
+            <p class="mb-0">Classes are back in session at the studio</p>
         </div>
         <div id="stoplight">
             <div class="row">

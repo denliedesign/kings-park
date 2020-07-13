@@ -102,7 +102,7 @@ function check_overlap(area) {
 
 
 
-$('.red-light').click(function () {
+$('.green-light').click(function () {
     $('.stoplight-info').toggleClass('show-info')
 })
 

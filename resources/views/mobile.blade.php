@@ -2,7 +2,7 @@
     <div id="stoplight">
         <div class="row">
             <div class="col stoplight-col">
-                <div class="red-light light-circle"></div>
+                <div class="green-light light-circle"></div>
             </div>
         </div>
     </div>
