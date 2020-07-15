@@ -113,3 +113,6 @@ $('.green-light').click(function () {
 // $('.green-light').click(function () {
 //     $('.stoplight-info-green').toggleClass('show-info')
 // })
+
+var openings = document.querySelectorAll("[data-title='Openings']");
+$(openings).hide()

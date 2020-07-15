@@ -13,6 +13,20 @@
 
     <div id="promotions">
         <div class="container my-5">
+            <div class="row d-flex justify-content-center align-items-center mb-5">
+                <div class="col-sm">
+                    <img src="/images/sparkle-squad-beach-ballet.PNG" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm">
+                    <h3 class="text-center mt-3"><strong>Summer Special!</strong></h3>
+                    <p class="text-center px-3">
+                        Sparkle Squad and Beach Ballet together! Normally $95- combined special $75- WOW! Hurry this offer won’t last. Limited spots available. 2 hours of dancing fun!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue-fade py-5">
+            <div class="container">
             <div class="d-flex justify-content-center">
                 <div class="row">
                     <div class="col-sm mb-3">
@@ -25,13 +39,8 @@
                     </div>
                 </div>
             </div>
-{{--            <h3 class="text-center mt-3"><strong>Spring Dance Classes</strong></h3>--}}
-{{--            <p class="text-center">--}}
-{{--                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias blanditiis cupiditate deserunt ducimus earum eligendi, expedita fugit in iusto laboriosam minima porro sapiente sit!--}}
-{{--                <br><br>--}}
-{{--                Al cum deleniti ea eaque eveniet explicabo impedit laboriosam nihil!--}}
-{{--            </p>--}}
-
+            </div>
+        </div>
         </div>
     </div>
 
