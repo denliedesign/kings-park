@@ -15,12 +15,16 @@
         <div class="container my-5">
             <div class="row d-flex justify-content-center align-items-center mb-5">
                 <div class="col-sm">
-                    <img src="/images/sparkle-squad-beach-ballet.PNG" alt="" class="img-fluid">
+                    <img src="/images/sparkle-squad-beach-ballet.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-sm">
                     <h3 class="text-center mt-3"><strong>Summer Special!</strong></h3>
                     <p class="text-center px-3">
-                        Sparkle Squad and Beach Ballet together! Normally $95- combined special $75- WOW! Hurry this offer won’t last. Limited spots available. 2 hours of dancing fun!
+                        Sparkle Squad and Beach Ballet together!
+                        <br>This class includes Ballet, Tap and Hip Hop
+                        <br>Normally $95 - combined special $65- WOW!
+                        <br>Hurry this offer won't last. Starts July 30th - Limited spots available.
+                        <br>2 hours of dancing fun!
                     </p>
                 </div>
             </div>
