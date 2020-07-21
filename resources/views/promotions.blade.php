@@ -15,7 +15,7 @@
         <div class="container my-5">
             <div class="row d-flex justify-content-center align-items-center mb-5">
                 <div class="col-sm">
-                    <img src="/images/sparkle-squad-beach-ballet.png" alt="" class="img-fluid">
+                    <img src="/images/promo-special.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-sm">
                     <h3 class="text-center mt-3"><strong>Summer Special!</strong></h3>
