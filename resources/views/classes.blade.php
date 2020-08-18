@@ -12,6 +12,7 @@
     </div>
 
     <div class="container my-5">
+        <p class="text-center">Don't see a class or time you're looking for? <a href="#footer">Contact us</a> so we may be able to accommodate you. Thank you</p>
         <div class="accordion" id="accordionExample">
             <div class="card">
                 <div class="card-header class-cat-4" id="headingFour">
