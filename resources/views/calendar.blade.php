@@ -12,8 +12,9 @@
     </div>
 
     <div id="calendar" class="my-5">
-        <div class="container">
-            <p class="text-center">Coming soon! Check back for studio updates.</p>
+        <div class="container d-flex justify-content-center">
+{{--            <p class="text-center">Coming soon! Check back for studio updates.</p>--}}
+            <img src="/images/kp-studio-closings.png" alt="list of days studio is closed" class="img-fluid">
 {{--            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">--}}
 {{--                <div class="col mb-4">--}}
 {{--                    <div class="card">--}}

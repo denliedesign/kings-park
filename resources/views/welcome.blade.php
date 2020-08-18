@@ -247,7 +247,7 @@
         <div class="col-sm text-center p-0 mb-3">
             <div class="purple-head class-style-title">Private<br><span class="class-desc">one on one instruction &middot; ages 7 and up</span></div>
             <p>One on one training in all of our offered styles- tap, jazz, ballet, voice, cheer, acting and more!  Private lessons provide targeted and goal oriented training for your child.  Perfect for students looking to work on flexibility, turns, leaps, cheer stunts and more</p>
-            <a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank"><button class="btn purple-btn">SIGN UP TODAY!</button></a>
+            <a href="mailto:kpdancecenter@gmail.com?subject=Private"><button class="btn purple-btn">Find Out More</button></a>
         </div>
         <div class="col-sm text-center p-0 mb-3">
             <div class="blue-head class-style-title">Semi-Private<br><span class="class-desc">controlled class size (6-9) &middot; ages 3 and up</span></div>
@@ -256,16 +256,31 @@
             <div class="d-flex justify-content-center"><div class="blue-bar mb-3"></div></div>
             <p class="font-weight-bold">Technique 6 & up</p>
             <p>The basis of all fundamentals of dance, from holding your body correctly while performing, to executing skills properly in a routine. Strong technique extends across all areas of dance, regardless of the style of your routine.</p>
-            <a href="/classes"><button class="btn blue-btn">MORE</button></a>
+            <a href="mailto:kpdancecenter@gmail.com?subject=Semi-Private"><button class="btn blue-btn">Find Out More</button></a>
         </div>
         <div class="col-sm text-center p-0 mb-3">
-            <div class="black-head class-style-title">Online<br><span class="class-desc">train from home &middot; ages 3 and up</span></div>
-            <p class="font-weight-bold">Funky Tutu 4-6 yrs old</p>
-            <p>We have combined two of our most popular classes! Dancers will develop flexibility, balance, and control through classicAL ballet and switch it up for the creative and energetic moves of today’s latest hip hop.</p>
-            <div class="d-flex justify-content-center"><div class="black-bar mb-3"></div></div>
-            <p class="font-weight-bold">Broadway Babies 3-5 yrs old</p>
-            <p>An energetic, fun combination of Jazz and Tap. Dancers will be introduced to the beginning foundations of both styles, while dancing and grooving to energetic music.</p>
-            <a href="/classes"><button class="btn black-btn">MORE</button></a>
+            <div class="black-head class-style-title">Online<br><span class="class-desc">train from home &middot; ages 2-7 and 5-10</span></div>
+{{--            <p class="font-weight-bold">Funky Tutu 4-6 yrs old</p>--}}
+{{--            <p>We have combined two of our most popular classes! Dancers will develop flexibility, balance, and control through classicAL ballet and switch it up for the creative and energetic moves of today’s latest hip hop.</p>--}}
+{{--            <div class="d-flex justify-content-center"><div class="black-bar mb-3"></div></div>--}}
+{{--            <p class="font-weight-bold">Broadway Babies 3-5 yrs old</p>--}}
+{{--            <p>An energetic, fun combination of Jazz and Tap. Dancers will be introduced to the beginning foundations of both styles, while dancing and grooving to energetic music.</p>--}}
+            <p class="font-weight-bold">Dancily</p>
+            <p>
+                Log-in from home up to 6 days per week and take a fun, themed dance class right from your living room for only $75/mo.⁠
+                <br><br>
+                Dancers will gain access to ALL DANCILY classes available for their age group - Up to 6 classes per week⁠
+            </p>
+            <ul class="text-left">Includes
+                <li>Dance At Home Prop Kit⁠</li>
+
+                <li>Dress Up and gather additional props from home⁠</li>
+
+                <li>Interactive and Engaging⁠</li>
+
+                <li>Printable coloring sheets and activities</li>
+            </ul>
+            <a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank"><button class="btn black-btn">SIGN UP TODAY!</button></a>
         </div>
     </div>
 

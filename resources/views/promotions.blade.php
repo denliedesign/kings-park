@@ -12,27 +12,31 @@
     </div>
 
     <div id="promotions">
-        <div class="my-5 mx-1 d-flex justify-content-center align-items-center">
-            <div class="row p-0 m-0">
-                <div class="col-sm p-0 m-0">
-                    <img src="/images/KPDC-front-fall-2020.jpg" alt="" class="img-fluid">
+        <div class="my-5 mx-1">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row p-0 m-0">
+                    <div class="col-sm p-0 m-0">
+                        <img src="/images/KPDC-front-fall-2020.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-sm p-0 m-0">
+                        <img src="/images/KPDC-back-fall-2020.jpg" alt="" class="img-fluid">
+                    </div>
                 </div>
-                <div class="col-sm p-0 m-0">
-                    <img src="/images/KPDC-back-fall-2020.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row p-0 m-0">
+                    <div class="col-sm p-0 m-0">
+                        <img src="/images/kp-dance-bring-a-friend.png" alt="" class="img-fluid my-3">
+                    </div>
+                    <div class="col-sm p-0 m-0">
+                        <img src="/images/kp-dance-boys.jpg" alt="" class="img-fluid my-md-3 pl-md-3">
+                    </div>
                 </div>
-{{--                <div class="col-sm">--}}
-{{--                    <img src="/images/promo-special.png" alt="" class="img-fluid">--}}
-{{--                </div>--}}
-{{--                <div class="col-sm">--}}
-{{--                    <h3 class="text-center mt-3"><strong>Summer Special!</strong></h3>--}}
-{{--                    <p class="text-center px-3">--}}
-{{--                        Sparkle Squad and Beach Ballet together!--}}
-{{--                        <br>This class includes Ballet, Tap and Hip Hop--}}
-{{--                        <br>Normally $95 - combined special $65- WOW!--}}
-{{--                        <br>Hurry this offer won't last. Starts July 30th - Limited spots available.--}}
-{{--                        <br>2 hours of dancing fun!--}}
-{{--                    </p>--}}
-{{--                </div>--}}
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="container">
+                    <img src="/images/kp-dance-ad.jpg" alt="" class="img-fluid mt-3">
+                </div>
             </div>
         </div>
 {{--        <div class="bg-blue-fade py-5">--}}

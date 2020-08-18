@@ -12,6 +12,11 @@
         <img src="/images/confetti-fg-4.png" alt="" class="img-fluid confetti-fg rellax d-none d-md-block" data-rellax-speed="-3">
     </div>
 
+    <div style="background: #8a33ac;" class="text-white text-center py-5">
+        <h2>Ask About Our Online Birthday Parties</h2>
+        <a href="#footer"><button class="btn btn-style-reg mt-1">Contact Us</button></a>
+    </div>
+
     <div id="parties" class="my-5">
         <div class="container">
             <div class="row">

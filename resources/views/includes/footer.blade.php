@@ -1,4 +1,4 @@
-<div class="gold-head">
+<div class="gold-head" id="footer">
     <div class="row pt-4 m-0" id="big-row">
         <div id="big-col" class="col-sm-5">
             <div id="one-med-row" class="row" style="height: 100%;">
@@ -14,16 +14,17 @@
             <ol class="carousel-control-panel d-flex justify-content-start">
                 <li class="mr-2" data-target="#carouselExampleControls" data-slide-to="0" class="active">Kings Park</li>
                 <li class="ml-2" data-target="#carouselExampleControls" data-slide-to="1">Northport</li>
+                <li class="ml-2" data-target="#carouselExampleControls" data-slide-to="2">Smithtown</li>
             </ol>
     <div id="carouselExampleControls" class="carousel slide footer-locations-inner">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <!-- east location -->
+                <!-- central location -->
 
                 <div id="med-row" class="row">
                     <div id="sm-col" class="col-sm mb-2 d-flex align-items-center justify-content-center">
                         <div>
-                            <strong>KP Dance Center East</strong>
+                            <strong>KP Dance Center Central</strong>
                             <br>85 Main Street
                             <br><span style="color: #8a33ac; font-weight: bold;">Kings Park</span>, NY 11754
                             <br>(631)269-0751
@@ -68,7 +69,7 @@
                     </div>
                 </div>
 
-                <!-- end of east location -->
+                <!-- end of central location -->
             </div>
             <div class="carousel-item">
                 <!-- west location -->
@@ -121,6 +122,59 @@
                     </div>
                 </div>
             </div>
+
+            <div class="carousel-item">
+                <!-- new smithtown east location -->
+
+                <div id="med-row" class="row">
+                    <div id="sm-col" class="col-sm mb-2 d-flex align-items-center justify-content-center">
+                        <div>
+                            <strong>KP Dance Center East</strong>
+                            <br>100 East Main Street
+                            <br><span style="color: #8a33ac; font-weight: bold;">Smithtown</span>, NY 11787
+                            <br>(631)269-0751
+                        </div>
+                    </div>
+                    <div id="sm-col" class="col-sm mb-2">
+                        <table class="table table-borderless" style="font-size: 0.7em">
+                            <div class="tbody">
+                                <tr>
+                                    <th>Mon</th>
+                                    <td>4:15-9PM</td>
+                                </tr>
+                                <tr>
+                                    <th>Tue</th>
+                                    <td>10-1:45PM/4:15-9:30PM</td>
+                                </tr>
+                                <tr>
+                                    <th>Wed</th>
+                                    <td>4:15-8:30PM</td>
+                                </tr>
+                                <tr>
+                                    <th>Thr</th>
+                                    <td>10-12:45PM/4-8:30PM</td>
+                                </tr>
+                                <tr>
+                                    <th>Fri</th>
+                                    <td>4:15-9:30PM</td>
+                                </tr>
+                                <tr>
+                                    <th>Sat</th>
+                                    <td>9-12:45PM</td>
+                                </tr>
+                                <tr>
+                                    <th>Sun</th>
+                                    <td>Open for Bday Parties</td>
+                                </tr>
+                            </div>
+                        </table>
+                    </div>
+                    <div id="sm-col" class="col-sm mb-2 d-flex justify-content-center align-items-center">
+                        <div style="width: 100%"><iframe width="100%" height="100%" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=100%20East%20Main%20Street,%20Smithtown%20NY%2011787+(KP%20Dance%20Center)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"></iframe></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
                 <!-- end of west location -->
