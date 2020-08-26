@@ -16,8 +16,15 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row p-0 m-0">
                     <div class="col-sm p-0 m-0">
-                        <img src="/images/KPDC-front-fall-2020.jpg" alt="" class="img-fluid">
+                        <img src="/images/open-house.jpeg" alt="" class="img-fluid my-3 pr-3">
                     </div>
+                    <div class="col-sm p-0 m-0">
+                        <img src="/images/kp-dance-ad.jpg" alt="" class="img-fluid my-3">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row p-0 m-0">
                     <div class="col-sm p-0 m-0">
                         <img src="/images/KPDC-back-fall-2020.jpg" alt="" class="img-fluid">
                     </div>
@@ -31,11 +38,6 @@
                     <div class="col-sm p-0 m-0">
                         <img src="/images/kp-dance-boys.jpg" alt="" class="img-fluid my-md-3 pl-md-3">
                     </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-                <div class="container">
-                    <img src="/images/kp-dance-ad.jpg" alt="" class="img-fluid mt-3">
                 </div>
             </div>
         </div>

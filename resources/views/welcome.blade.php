@@ -189,7 +189,8 @@
     <div class="container mt-4">
         <div class="card-columns">
             <div class="card">
-                <img src="/images/kings-park-little-dancer.jpeg" alt="" class="img-fluid">
+{{--                <img src="/images/kings-park-little-dancer.jpeg" alt="" class="img-fluid">--}}
+                <img src="/images/open-house.jpeg" alt="" class="img-fluid">
             </div>
             <div class="card">
                 <img src="/images/kings-park-dance-group.jpeg" alt="" class="img-fluid">

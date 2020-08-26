@@ -26,7 +26,7 @@
                     <div class="col-sm mb-2" style="color: #9cdbe1;">
                         <ion-icon name="home"></ion-icon>
                         <br>
-                        2 Locations
+                        3 Locations
                     </div>
                     <div class="col-sm mb-2" style="color: black;">
                         <ion-icon name="people"></ion-icon>
