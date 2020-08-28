@@ -130,7 +130,7 @@
                     <div id="sm-col" class="col-sm mb-2 d-flex align-items-center justify-content-center">
                         <div>
                             <strong>KP Dance Center East</strong>
-                            <br>100 East Main Street
+                            <br>116 East Main Street
                             <br><span style="color: #8a33ac; font-weight: bold;">Smithtown</span>, NY 11787
                             <br>(631)269-0751
                         </div>
@@ -170,7 +170,7 @@
                         </table>
                     </div>
                     <div id="sm-col" class="col-sm mb-2 d-flex justify-content-center align-items-center">
-                        <div style="width: 100%"><iframe width="100%" height="100%" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=100%20East%20Main%20Street,%20Smithtown%20NY%2011787+(KP%20Dance%20Center)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="600" frameborder="0"></iframe></div>
+                        <div style="width: 100%"><iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=116%20East%20Main%20Street%20Smithtown%20NY%2011787+(Kings%20Park%20Dance%20Center)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
                     </div>
                 </div>
             </div>

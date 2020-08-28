@@ -16,7 +16,7 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row p-0 m-0">
                     <div class="col-sm p-0 m-0">
-                        <img src="/images/open-house.jpeg" alt="" class="img-fluid my-3 pr-3">
+                        <img src="/images/open-house.jpeg" alt="" class="img-fluid my-3 pr-3f">
                     </div>
                     <div class="col-sm p-0 m-0">
                         <img src="/images/kp-dance-ad.jpg" alt="" class="img-fluid my-3">
