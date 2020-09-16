@@ -266,22 +266,13 @@
 {{--            <div class="d-flex justify-content-center"><div class="black-bar mb-3"></div></div>--}}
 {{--            <p class="font-weight-bold">Broadway Babies 3-5 yrs old</p>--}}
 {{--            <p>An energetic, fun combination of Jazz and Tap. Dancers will be introduced to the beginning foundations of both styles, while dancing and grooving to energetic music.</p>--}}
-            <p class="font-weight-bold">Dancily</p>
+            <p class="font-weight-bold">Hybrid</p>
             <p>
-                Log-in from home up to 6 days per week and take a fun, themed dance class right from your living room for only $75/mo.⁠
-                <br><br>
-                Dancers will gain access to ALL DANCILY classes available for their age group - Up to 6 classes per week⁠
+                These classes are hybrid classes. That means if you choose to join us in person at any time, you’ll have a spot waiting for you in the classroom. Also whether you choose to participate in person or stay online, you’re more than welcome to participate in the recital. Class size is limited so don’t wait to register.
+                <br>*Note: to register for Hybrid classes, please click the Kings Park Location Schedule on the Classes Page. All Hybrid classes are listed.
             </p>
-            <ul class="text-left">Includes
-                <li>Dance At Home Prop Kit⁠</li>
 
-                <li>Dress Up and gather additional props from home⁠</li>
-
-                <li>Interactive and Engaging⁠</li>
-
-                <li>Printable coloring sheets and activities</li>
-            </ul>
-            <a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank"><button class="btn black-btn">SIGN UP TODAY!</button></a>
+            <a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank"><button class="btn black-btn">REGISTER HERE!</button></a>
         </div>
     </div>
 
