@@ -33,6 +33,13 @@
             <input type="date" class="form-control" name="birthdate" id="birthdate" required>
         </div>
     </div>
+    <div class="form-group row">
+        <label class="col-sm-4 col-form-label" for="class">Which Class?</label>
+        <div class="col-sm-8">
+            <input id="class" type="text" class="form-control" name="class" value="">
+        </div>
+        <div>{{ $errors->first('class') }}</div>
+    </div>
     @csrf
     <div class="d-flex justify-content-center">
         <button type="submit" class="btn btn-danger mt-2">Claim Offer</button>

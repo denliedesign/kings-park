@@ -26,10 +26,11 @@ class FreeTrialController extends Controller
             'email' => 'required|email',
             'phone' => 'required',
             'studentName' => 'required',
-            'birthdate' => 'required'
+            'birthdate' => 'required',
+            'class' => 'required'
         ]);
 
-        Mail::to('kpdcdirector@gmail.com')->send(new FreeTrialMail($trial));
+        Mail::to('customdenlie@gmail.com')->send(new FreeTrialMail($trial));
 
         return redirect('/')->with('message', 'Thank you for your interest. We wil contact you shortly.');
     }

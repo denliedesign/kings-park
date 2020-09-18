@@ -12,34 +12,15 @@
     </div>
 
     <div id="calendar" class="my-5">
-        <div class="container d-flex justify-content-center">
-{{--            <p class="text-center">Coming soon! Check back for studio updates.</p>--}}
-            <img src="/images/kp-studio-closings.png" alt="list of days studio is closed" class="img-fluid">
-{{--            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">--}}
-{{--                <div class="col mb-4">--}}
-{{--                    <div class="card">--}}
-{{--                        <a href="/calendar/july" style="text-decoration: none;">--}}
-{{--                            <div class="card-gradient gradient-purple d-flex align-items-center justify-content-center">--}}
-{{--                                <p class="text-uppercase text-center">KPDC<br>July<br>2020</p>--}}
-{{--                            </div>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col mb-4">--}}
-{{--                    <div class="card">--}}
-{{--                        <div class="card-gradient gradient-blue d-flex align-items-center justify-content-center">--}}
-{{--                            <p class="text-uppercase text-center">KPDC<br>August<br>2020</p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col mb-4">--}}
-{{--                    <div class="card">--}}
-{{--                        <div class="card-gradient gradient-gold d-flex align-items-center justify-content-center">--}}
-{{--                            <p class="text-uppercase text-center">KPDC<br>September<br>2020</p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
+        <div class="d-flex justify-content-center">
+            <div class="row m-0 p-0">
+                <div class="col-sm-7 mb-2">
+                    <iframe src="https://app.jackrabbitclass.com/eventcalendar.asp?orgid=540329" frameborder="0" width="100%" height="700"></iframe>
+                </div>
+                <div class="col-sm-5">
+                    <img src="/images/kp-studio-closings.png" alt="list of days studio is closed" class="img-fluid">
+                </div>
+            </div>
         </div>
     </div>
 
