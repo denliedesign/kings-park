@@ -12,6 +12,7 @@
     </div>
 
     <div class="container my-5">
+        <p class="text-center sticky-top blue-head py-3 font-weight-bold text-dark">Don't see a class or time you're looking for? <a href="#footer">Contact us</a> so we may be able to accommodate you. Thank you</p>
         <div class="accordion" id="accordionExample">
             <div class="card">
                 <div class="card-header class-cat-4" id="headingFour">
@@ -23,9 +24,7 @@
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                     <div class="card-body">
-                        <div class="card-text"><p class="text-center">Don't see a class or time you're looking for? <a href="#footer">Contact us</a> so we may be able to accommodate you. Thank you</p></div>
                         <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=540329&Loc=NPT&session=2020%20-%202021%20Fall%20Season&sort=StartDate,Days,StartTime&Hidecols=Ages,Openings"></script>
-                        <div class="card-text"><p class="text-center">Don't see a class or time you're looking for? <a href="#footer">Contact us</a> so we may be able to accommodate you. Thank you</p></div>
                     </div>
                     <div class="card-footer d-flex justify-content-center pb-5">
                         <div class="purple-rectangle text-center" style="width: 50%;">
@@ -44,9 +43,7 @@
                 </div>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                     <div class="card-body">
-                        <div class="card-text"><p class="text-center">Don't see a class or time you're looking for? <a href="#footer">Contact us</a> so we may be able to accommodate you. Thank you</p></div>
                         <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=540329&Loc=KP&session=2020%20-%202021%20Fall%20Season&sort=StartDate,Days,StartTime&Hidecols=Ages,Openings"></script>
-                        <div class="card-text"><p class="text-center">Don't see a class or time you're looking for? <a href="#footer">Contact us</a> so we may be able to accommodate you. Thank you</p></div>
                     </div>
                     <div class="card-footer d-flex justify-content-center pb-5">
                         <div class="purple-rectangle text-center" style="width: 50%;">
@@ -65,9 +62,7 @@
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                     <div class="card-body">
-                        <div class="card-text"><p class="text-center">Don't see a class or time you're looking for? <a href="#footer">Contact us</a> so we may be able to accommodate you. Thank you</p></div>
                         <script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=540329&Loc=SMT&session=2020%20-%202021%20Fall%20Season&sort=StartDate,Days,StartTime"></script>
-                        <div class="card-text"><p class="text-center">Don't see a class or time you're looking for? <a href="#footer">Contact us</a> so we may be able to accommodate you. Thank you</p></div>
                     </div>
                     <div class="card-footer d-flex justify-content-center pb-5">
                         <div class="purple-rectangle text-center" style="width: 50%;">
