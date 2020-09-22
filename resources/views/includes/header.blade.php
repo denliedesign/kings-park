@@ -4,6 +4,7 @@
         <a href="https://www.facebook.com/kingsparkdancecenter" target="_blank" class="text-dark"><ion-icon name="logo-facebook"></ion-icon></a>
         <a href="https://www.instagram.com/kpdancecenter/" target="_blank" class="text-dark"><ion-icon name="logo-instagram"></ion-icon></a>
         <a href="https://www.youtube.com/user/Kingsparkdancecenter" target="_blank" class="text-dark"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="https://twitter.com/kpdancecenter" target="_blank" class="text-dark"><ion-icon name="logo-twitter"></ion-icon></a>
     </div>
 </div>
 
