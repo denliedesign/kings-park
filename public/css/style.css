@@ -648,3 +648,7 @@ label {
     color: #8a33ac;
     background: #D5A327;
 }
+
+.event-register-click img:hover {
+    filter: grayscale(100%);
+}

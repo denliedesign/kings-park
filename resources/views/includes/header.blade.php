@@ -19,7 +19,7 @@
             <li class="list-group-item"><a href="/teams">Competition&nbsp;Teams</a></li>
             <li class="list-group-item"><a href="/recital">Recital</a></li>
             <li class="list-group-item"><a href="/employment">Employment</a></li>
-            <li class="list-group-item"><a href="/promotions">Promotions</a></li>
+            <li class="list-group-item"><a href="/promotions">Events</a></li>
             <li class="list-group-item"><a href="/calendar">Calendar</a></li>
             <li class="list-group-item"><a href="https://www.shopnimbly.com/KPdance" target="_blank">Dancewear</a></li>
             <li class="list-group-item"><a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank">Register</a></li>
