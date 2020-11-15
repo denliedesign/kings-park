@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Dance Classes | Kings Park & Northport, NY">
+    <meta property="og:title" content="Dance Classes | Kings Park, Northport, & Smithtown NY">
     <meta property="og:description" content="For Over 30 Years. One Stop Shop For Dance, Acting, And Voice. Creating Community For All Ages!">
     <meta property="og:image" content="https://kpdancecenter.com/images/kp-social.jpeg">
     <meta property="og:url" content="https://kpdancecenter.com">
