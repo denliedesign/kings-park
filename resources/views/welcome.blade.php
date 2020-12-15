@@ -148,6 +148,20 @@
         </div>
     </div>
 
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 mx-0">
+        <div class="col p-0">
+            <img src="/images/color-block-1.png" alt="dance with friends" class="img-fluid">
+        </div>
+        <div class="col p-0">
+            <img src="/images/color-block-2.png" alt="make great kids" class="img-fluid">
+        </div>
+        <div class="col p-0">
+            <img src="/images/color-block-3.png" alt="healthy and happy" class="img-fluid">
+        </div>
+        <div class="col p-0">
+            <img src="/images/color-block-4.png" alt="tech enabled studio" class="img-fluid">
+        </div>
+    </div>
     <div class="bg-blue-fade">
         <div class="container py-5">
             <a href="https://bestof.longislandpress.com/voting/#/gallery/?group=365642" target="_blank" class="event-register-click">
@@ -194,7 +208,7 @@
         <div class="card-columns">
             <div class="card">
 {{--                <img src="/images/kings-park-little-dancer.jpeg" alt="" class="img-fluid">--}}
-                <img src="/images/classes-begin.gif" alt="" class="img-fluid">
+                <img src="/images/winter-ad.jpg" alt="" class="img-fluid">
             </div>
             <div class="card">
                 <img src="/images/kings-park-dance-group.jpeg" alt="" class="img-fluid">
