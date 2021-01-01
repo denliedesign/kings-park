@@ -164,9 +164,6 @@
     </div>
     <div class="bg-blue-fade">
         <div class="container py-5">
-            <a href="https://bestof.longislandpress.com/voting/#/gallery/?group=365642" target="_blank" class="event-register-click">
-                <img src="/images/best-dance-best-party.gif" alt="best children's dance and party nomination" class="img-fluid" style="margin: 0 auto; display: block;">
-            </a>
             <div class="text-center main-about-txt">
                 <span class="main-about-span">For over 30 years</span>
                 <br>One stop shop for dance, acting, and voice.<br>Creating community for all ages!
@@ -200,6 +197,9 @@
                 </div>
                 <!-- end modal -->
             </div>
+            <div id="dance-in-new-year" class="my-4">
+                <img src="/images/dance-in-new-year.jpg" alt="dance in the new year" class="img-fluid">
+            </div>
         </div>
         </div>
     </div>
@@ -207,8 +207,9 @@
     <div class="container mt-4">
         <div class="card-columns">
             <div class="card">
-{{--                <img src="/images/kings-park-little-dancer.jpeg" alt="" class="img-fluid">--}}
-                <img src="/images/winter-ad.jpg" alt="" class="img-fluid">
+                <a href="https://bestof.longislandpress.com/voting/#/gallery/?group=365642" target="_blank" class="event-register-click">
+                    <img src="/images/best-dance-best-party.gif" alt="best children's dance and party nomination" class="img-fluid" style="margin: 0 auto; display: block;">
+                </a>
             </div>
             <div class="card">
                 <img src="/images/kings-park-dance-group.jpeg" alt="" class="img-fluid">
