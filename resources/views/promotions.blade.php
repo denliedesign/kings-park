@@ -16,6 +16,19 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row p-0 m-0">
                     <div class="col-sm p-0 m-0">
+                        <img src="/images/zombie-cheer.png" alt="zombie cheer session" class="img-fluid my-3 pr-3">
+                    </div>
+                    <div class="col-sm p-0 m-0">
+                        <img src="/images/princess-academy.png" alt="princess academy session" class="img-fluid pr-3 my-3">
+                    </div>
+                    <div class="col-sm p-0 m-0">
+                        <img src="/images/tik-tok.jpg" alt="tik tok session" class="img-fluid my-3">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row p-0 m-0">
+                    <div class="col-sm p-0 m-0">
                         <a href="https://app.jackrabbitclass.com/eventcalendar.asp?orgID=540329" target="_blank" class="event-register-click">
                             <img src="/images/adult-hip-hop.jpeg" alt="" class="img-fluid my-3 pr-3">
                         </a>

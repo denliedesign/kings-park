@@ -198,7 +198,14 @@
                 <!-- end modal -->
             </div>
             <div id="dance-in-new-year" class="my-4">
-                <img src="/images/dance-in-new-year.jpg" alt="dance in the new year" class="img-fluid">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="/images/dance-in-new-year.jpg" alt="dance in the new year" class="img-fluid">
+                    </div>
+                    <div class="col-sm">
+                        <img src="/images/bring-a-friend.png" alt="bring a friend" class="img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
         </div>
