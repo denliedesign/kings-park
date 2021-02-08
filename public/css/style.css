@@ -652,3 +652,9 @@ label {
 .event-register-click img:hover {
     filter: grayscale(100%);
 }
+
+
+#partner-images img {
+    max-height: 90px;
+    width: auto;
+}

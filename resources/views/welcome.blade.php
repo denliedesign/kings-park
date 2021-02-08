@@ -197,16 +197,16 @@
                 </div>
                 <!-- end modal -->
             </div>
-            <div id="dance-in-new-year" class="my-4">
-                <div class="row">
-                    <div class="col-sm">
-                        <img src="/images/dance-in-new-year.jpg" alt="dance in the new year" class="img-fluid">
-                    </div>
-                    <div class="col-sm">
-                        <img src="/images/bring-a-friend.png" alt="bring a friend" class="img-fluid">
-                    </div>
-                </div>
-            </div>
+{{--            <div id="dance-in-new-year" class="my-4">--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-sm">--}}
+{{--                        <img src="/images/dance-in-new-year.jpg" alt="dance in the new year" class="img-fluid">--}}
+{{--                    </div>--}}
+{{--                    <div class="col-sm">--}}
+{{--                        <img src="/images/bring-a-friend.png" alt="bring a friend" class="img-fluid">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
         </div>
     </div>
@@ -286,7 +286,7 @@
             <a href="mailto:kpdancecenter@gmail.com?subject=Semi-Private"><button class="btn blue-btn">Find Out More</button></a>
         </div>
         <div class="col-sm text-center p-0 mb-3">
-            <div class="black-head class-style-title">Online<br><span class="class-desc">train from home &middot; ages 2-7 and 5-10</span></div>
+            <div class="black-head class-style-title">Online<br><span class="class-desc">train from home &middot; ages 1.5 and up</span></div>
 {{--            <p class="font-weight-bold">Funky Tutu 4-6 yrs old</p>--}}
 {{--            <p>We have combined two of our most popular classes! Dancers will develop flexibility, balance, and control through classicAL ballet and switch it up for the creative and energetic moves of today’s latest hip hop.</p>--}}
 {{--            <div class="d-flex justify-content-center"><div class="black-bar mb-3"></div></div>--}}
@@ -295,10 +295,10 @@
             <p class="font-weight-bold">Hybrid</p>
             <p>
                 These classes are hybrid classes. That means if you choose to join us in person at any time, you’ll have a spot waiting for you in the classroom. Also whether you choose to participate in person or stay online, you’re more than welcome to participate in the recital. Class size is limited so don’t wait to register.
-                <br>*Note: to register for Hybrid classes, please click the Kings Park Location Schedule on the Classes Page. All Hybrid classes are listed.
+{{--                <br>*Note: to register for Hybrid classes, please click the Kings Park Location Schedule on the Classes Page. All Hybrid classes are listed.--}}
             </p>
 
-            <a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank"><button class="btn black-btn">REGISTER HERE!</button></a>
+            <a href="/classes" target="_blank"><button class="btn black-btn">MORE</button></a>
         </div>
     </div>
 
@@ -338,11 +338,15 @@
     </div>
 
     <div class="bg-blue-fade">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-sm"><img src="/images/partner1.png" alt="" class="img-fluid"></div>
-                <div class="col-sm"><img src="/images/partner2.png" alt="" class="img-fluid"></div>
-                <div class="col-sm"><img src="/images/partner6.png" alt="" class="img-fluid"></div>
+        <div class="py-5">
+            <div id="partner-images" class="row m-0 p-0">
+                <div class="col-sm d-flex justify-content-center p-0 my-1"><img src="/images/partner1.png" alt="" class="img-fluid"></div>
+                <div class="col-sm d-flex justify-content-center p-0 my-1"><img src="/images/partner2.png" alt="" class="img-fluid"></div>
+                <div class="col-sm d-flex justify-content-center p-0 my-1"><img src="/images/partner6.png" alt="" class="img-fluid"></div>
+                <div class="col-sm d-flex justify-content-center p-0 my-1"><img src="/images/logo-safer-studio.png" alt="" class="img-fluid" style="filter: invert(100%);"></div>
+                <div class="col-sm d-flex justify-content-center p-0 my-1"><img src="/images/logo-background-check.png" alt="" class="img-fluid"></div>
+                <div class="col-sm d-flex justify-content-center p-0 my-1"><img src="/images/logo-sou.png" alt="" class="img-fluid"></div>
+                <div class="col-sm d-flex justify-content-center p-0 my-1"><img src="/images/logo-tech-enabled.png" alt="" class="img-fluid"></div>
             </div>
         </div>
     </div>
