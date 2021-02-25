@@ -13,6 +13,9 @@
 
     <div id="promotions">
         <div class="my-5 mx-1">
+            <div class="d-flex justify-content-center">
+                <img src="/images/march-madness.gif" alt="march madness try a class" class="img-fluid m-5" style="max-height: 700px;">
+            </div>
 {{--            <div class="d-flex justify-content-center align-items-center">--}}
 {{--                <div class="row p-0 m-0">--}}
 {{--                    <div class="col-sm p-0 m-0">--}}
