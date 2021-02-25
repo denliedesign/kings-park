@@ -169,6 +169,11 @@
                 <br>One stop shop for dance, acting, and voice.<br>Creating community for all ages!
             </div>
             <p class="text-center">KP Dance Center is a family owned and operated studio that has been providing quality dance instruction to the Kings Park and surrounding areas since 1987. Here at KP Dance Center, the enthusiasm of your child to learn dance is what drives us. We pride ourselves in creating an environment that is warm, inviting and reminiscent of "home". </p>
+
+            <div class="d-flex justify-content-center">
+                <img src="/images/march-madness.gif" alt="march madness try a class" class="img-fluid m-3" style="max-height: 500px;">
+            </div>
+
             <div id="trial-modal" class="d-flex justify-content-center">
                 <div data-toggle="modal" data-target="#trymodal" class="purple-rectangle d-flex align-items-center justify-content-center" style="cursor: pointer; width: 50%;">
                     <div>
