@@ -1,47 +1,48 @@
 <form action="{{ route('trial.store') }}" method="POST">
     <div class="form-group row">
-        <label class="col-sm-4 col-form-label" for="parentName">Parent Name</label>
-        <div class="col-sm-8">
-            <input id="parentName" type="text" class="form-control" name="parentName" value="">
+        <label class="d-none col-sm-0 col-form-label" for="parentName">Parent Name</label>
+        <div class="col-sm-12">
+            <input id="parentName" type="text" class="form-control mb-1" name="parentName" value="" placeholder="Parent Name">
         </div>
         <div>{{ $errors->first('parentName') }}</div>
     </div>
     <div class="form-group row">
-        <label class="col-sm-4 col-form-label" for="email">Email</label>
-        <div class="col-sm-8">
-            <input id="email" type="email" class="form-control" name="email" value="">
+        <label class="d-none col-sm-0 col-form-label" for="email">Email</label>
+        <div class="col-sm-12">
+            <input id="email" type="email" class="form-control mb-1" name="email" value="" placeholder="Email">
         </div>
         <div>{{ $errors->first('email') }}</div>
     </div>
     <div class="form-group row">
-        <label class="col-sm-4 col-form-label" for="phone">Phone Number</label>
-        <div class="col-sm-8">
-            <input type="text" class="form-control" name="phone" id="phone" value="">
+        <label class="d-none col-sm-0 col-form-label" for="phone">Phone Number</label>
+        <div class="col-sm-12">
+            <input type="text" class="form-control mb-1" name="phone" id="phone" value="" placeholder="Phone Number">
         </div>
         <div>{{ $errors->first('phone') }}</div>
     </div>
     <div class="form-group row">
-        <label class="col-sm-4 col-form-label" for="studentName">Student Name</label>
-        <div class="col-sm-8">
-            <input id="studentName" type="text" class="form-control" name="studentName" value="">
+        <label class="d-none col-sm-0 col-form-label" for="studentName">Student Name</label>
+        <div class="col-sm-12">
+            <input id="studentName" type="text" class="form-control mb-1" name="studentName" value="" placeholder="Student Name">
         </div>
         <div>{{ $errors->first('parentName') }}</div>
     </div>
     <div class="form-group row">
-        <label class="col-sm-4 col-form-label" for="birthdate">Birthdate</label>
-        <div class="col-sm-8">
-            <input type="date" class="form-control" name="birthdate" id="birthdate" required>
+        <label class="d-none col-sm-0 col-form-label" for="birthdate">Birthdate</label>
+        <div class="col-sm-12 d-flex justify-content-center align-items-center">
+            <small class="text-muted">Birthdate </small>
+            <input type="date" class="form-control mb-1" name="birthdate" id="birthdate" required>
         </div>
     </div>
     <div class="form-group row">
-        <label class="col-sm-4 col-form-label" for="class">Which Class?</label>
-        <div class="col-sm-8">
-            <input id="class" type="text" class="form-control" name="class" value="">
+        <label class="d-none col-sm-0 col-form-label" for="class">Which Class?</label>
+        <div class="col-sm-12">
+            <input id="class" type="text" class="form-control mb-1" name="class" value="" placeholder="Which Class?">
         </div>
         <div>{{ $errors->first('class') }}</div>
     </div>
     @csrf
     <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-danger mt-2">Claim Offer</button>
+        <button type="submit" class="btn purple-rectangle-trial mt-2">BOOK FREE CLASS</button>
     </div>
 </form>

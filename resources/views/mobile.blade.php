@@ -1,11 +1,4 @@
 <div id="mobile-intro" class="d-md-none">
-    <div id="stoplight">
-        <div class="row">
-            <div class="col stoplight-col">
-                <div class="green-light light-circle"></div>
-            </div>
-        </div>
-    </div>
 
     <div class="d-flex justify-content-center">
         <img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px; height: 157px;">
@@ -13,6 +6,18 @@
     <div class="row mt-4 mx-0">
         <div class="col p-0">
             <img src="/images/kings-park-dance-head-2.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+
+    <div class="mt-4 mx-0">
+        <div>
+            <div class="text-center">
+                <h1 class="page-title" style="transform: rotate(0deg)">Start Your Dance Journey Today</h1>
+                <p>Make your first step the right step with KP Dance Center</p>
+            </div>
+            <div class="pb-4 px-3 d-flex align-items-center justify-content-center">
+                @include('/trial/create')
+            </div>
         </div>
     </div>
 

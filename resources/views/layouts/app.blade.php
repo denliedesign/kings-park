@@ -13,7 +13,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Kings Park Dancer Center | Kings Park & Northport, NY')</title>
+    <title>@yield('title', 'KP Dancer Center | Kings Park, Northport, & Smithtown, NY')</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

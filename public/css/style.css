@@ -257,6 +257,22 @@ body {
     box-shadow: 2px 2px 4px black;
 }
 
+.purple-rectangle-trial {
+    background: #8a33ac;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 1.33em;
+    text-align: left;
+    line-height: 1;
+    box-shadow: 2px 2px 4px black;
+}
+
+.purple-rectangle-trial:hover {
+    color: white;
+    filter: brightness(80%);
+}
+
 #why-list span {
     color: #e8bc4f;
     font-size: 1.5em;
@@ -295,7 +311,7 @@ body {
     font-size: 1.75em;
     font-weight: 600;
     padding: 10px 0;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     line-height: 1;
 }
 

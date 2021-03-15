@@ -1,3 +1,31 @@
+<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light d-none d-md-block" style="z-index: 4; font-size: 0.95em;">
+    <div class="container-fluid d-flex justify-content-center">
+        <div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/policy">Policy</a></li>
+                <li class="nav-item"><a class="nav-link" href="/classes">Classes</a></li>
+                <li class="nav-item"><a class="nav-link" href="/parties">Parties</a></li>
+                <li class="nav-item"><a class="nav-link" href="/teams">Competition&nbsp;Teams</a></li>
+                <li class="nav-item"><a class="nav-link" href="/recital">Recital</a></li>
+                <li class="nav-item"><a class="nav-link" href="/employment">Employment</a></li>
+                <li class="nav-item"><a class="nav-link" href="/promotions">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="/calendar">Calendar</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.shopnimbly.com/KPdance" target="_blank">Dancewear</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://forms.gle/wh2sH1Tz6pTaSkx6A" target="_blank">Absences</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="d-md-none purple-head mb-1">
+    <div class="text-center py-1">
+        <p class="m-0 p-0"><a href="tel:+6312690751" style="text-decoration: none;" class="text-white"><ion-icon name="call-outline"></ion-icon> (631)269-0751</a></p>
+    </div>
+</div>
+
 <div class="slide-toggle">
     <div id="nav">
         <ion-icon name="menu-outline" id="hamburger"></ion-icon>

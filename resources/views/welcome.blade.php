@@ -3,61 +3,26 @@
 
     @include('mobile')
     <div id="laptop-intro" class="d-none d-md-block">
-        <div class="d-none stoplight-info">
-{{--            <p class="mb-0">Classes moved to online only</p>--}}
-            <p class="mb-0">Classes are back in session at the studio</p>
-        </div>
-        <div id="stoplight">
-            <div class="row">
-                <div class="col stoplight-col d-flex align-items-center justify-content-end">
-                    <div class="triangle-top-right"></div>
-                </div>
-                <div class="col stoplight-col">
-                    <div class="stop-block"></div>
-                    <div class="red-light light-circle"></div>
-                </div>
-                <div class="col stoplight-col d-flex align-items-center">
-                    <div class="triangle-top-left"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col stoplight-col d-flex align-items-center justify-content-end">
-                    <div class="triangle-top-right"></div>
-                </div>
-                <div class="col stoplight-col">
-                    <div class="stop-block"></div>
-                    <div class="yellow-light light-circle"></div>
-                </div>
-                <div class="col stoplight-col d-flex align-items-center">
-                    <div class="triangle-top-left"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col stoplight-col d-flex align-items-center justify-content-end">
-                    <div class="triangle-top-right"></div>
-                </div>
-                <div class="col stoplight-col">
-                    <div class="stop-block"></div>
-                    <div class="green-light light-circle"></div>
-                </div>
-                <div class="col stoplight-col d-flex align-items-center">
-                    <div class="triangle-top-left"></div>
-                </div>
-            </div>
-        </div>
 
         <div class="d-flex justify-content-center">
             <img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px; height: 157px;">
         </div>
         <div class="row mt-4 mx-0">
             <div class="col p-0">
-                <img src="/images/kings-park-dance-head-2.jpg" alt="" class="img-fluid">
+                <div class="text-center">
+                    <h1 class="page-title" style="transform: rotate(0deg)">Start Your Dance Journey Today</h1>
+                    <p>Make your first step the right step with KP Dance Center</p>
+                </div>
+                <div class="pb-4 px-3 d-flex align-items-center justify-content-center">
+                    @include('/trial/create')
+                </div>
             </div>
             <div class="col p-0">
-                <img src="/images/kings-park-dance-head-1.jpg" alt="" class="img-fluid">
+                <img src="/images/kings-park-dance-head-2.jpg" alt="" class="img-fluid">
             </div>
         </div>
 
+        <p class="text-center lead my-5">We’ve Taught Over 10,000 Children To Dance</p>
         <div style="height: 90vh;" class="text-center my-5" id="parallax-quotes">
             <div class="rellax" data-rellax-speed="-2" data-rellax-zindex="0" id="q-back-layer">
                 <p class="word" id="word6">Our happy place
@@ -173,46 +138,6 @@
             <div class="d-flex justify-content-center">
                 <img src="/images/march-madness.gif" alt="march madness try a class" class="img-fluid m-3" style="max-height: 500px;">
             </div>
-
-            <div id="trial-modal" class="d-flex justify-content-center">
-                <div data-toggle="modal" data-target="#trymodal" class="purple-rectangle d-flex align-items-center justify-content-center" style="cursor: pointer; width: 50%;">
-                    <div>
-                        <p class="pt-0 my-0 text-center">
-                            FREE TRIAL
-                        </p>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="trymodal" tabindex="-1" role="dialog" aria-labelledby="trymodalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content bg-ivory text-white">
-                            <div>
-                                <img src="/images/freetrialform.jpeg" alt="" style="width: 100%;">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="p-2"><ion-icon name="close-outline"></ion-icon></span>
-                                </button>
-                            </div>
-                            <h5 class="modal-title text-dark text-center mt-2" id="trymodalLabel">Your First Class FREE</h5>
-                            <small class="text-muted text-center">Limited availability. For a short time only.</small>
-                            <div class="modal-body text-left text-dark mx-2">
-                               @include('/trial/create')
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end modal -->
-            </div>
-{{--            <div id="dance-in-new-year" class="my-4">--}}
-{{--                <div class="row">--}}
-{{--                    <div class="col-sm">--}}
-{{--                        <img src="/images/dance-in-new-year.jpg" alt="dance in the new year" class="img-fluid">--}}
-{{--                    </div>--}}
-{{--                    <div class="col-sm">--}}
-{{--                        <img src="/images/bring-a-friend.png" alt="bring a friend" class="img-fluid">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-        </div>
         </div>
     </div>
 
@@ -266,48 +191,22 @@
         <img src="/images/kings-park-barre.jpg" alt="" class="img-fluid">
     </div>
 
-    <div class="row m-0">
-        <div class="col-sm text-center p-0 mb-3">
+    <div class="row m-0 p-0 text-center">
+        <div class="col-sm p-0 m-0">
             <div class="gold-head class-style-title">Traditional<br><span class="class-desc">regular class sizes &middot; ages 1.5 and up</span></div>
-            <p class="font-weight-bold">Twinkle Babies 1 1/2 - 2yrs old</p>
-            <p>The perfect start for your dancer!  Dancers will have an introduction to ballet, tap, and creative movement while using props to inspire imagination, creativity, and most of all- FUN!</p>
-            <div class="d-flex justify-content-center"><div class="gold-bar mb-3"></div></div>
-            <p class="font-weight-bold">Twinkle Stars 3 - 6yrs old</p>
-            <p>A class consisting of ballet, tap and jazz/creative movement. Dancers will build their skills and steps and begin to learn terminology in a fun and positive environment.  "Freeze Dance" is always a highlight for this class!</p>
-            <a href="/classes"><button class="btn gold-btn">MORE</button></a>
         </div>
-        <div class="col-sm text-center p-0 mb-3">
+        <div class="col-sm p-0 m-0">
             <div class="purple-head class-style-title">Private<br><span class="class-desc">one on one instruction &middot; ages 7 and up</span></div>
-            <p>One on one training in all of our offered styles- tap, jazz, ballet, voice, cheer, acting and more!  Private lessons provide targeted and goal oriented training for your child.  Perfect for students looking to work on flexibility, turns, leaps, cheer stunts and more</p>
-            <a href="mailto:kpdancecenter@gmail.com?subject=Private"><button class="btn purple-btn">Find Out More</button></a>
         </div>
-        <div class="col-sm text-center p-0 mb-3">
+        <div class="col-sm p-0 m-0">
             <div class="blue-head class-style-title">Semi-Private<br><span class="class-desc">controlled class size (6-9) &middot; ages 3 and up</span></div>
-            <p class="font-weight-bold">Stars Hip Hop 6 & up</p>
-            <p>One of our most popular classes! Students have a great time learning the latest dance styles. They will be working isolations and encouraged to add their own style to movements. All music as well as steps are clean and age appropriate.</p>
-            <div class="d-flex justify-content-center"><div class="blue-bar mb-3"></div></div>
-            <p class="font-weight-bold">Technique 6 & up</p>
-            <p>The basis of all fundamentals of dance, from holding your body correctly while performing, to executing skills properly in a routine. Strong technique extends across all areas of dance, regardless of the style of your routine.</p>
-            <a href="mailto:kpdancecenter@gmail.com?subject=Semi-Private"><button class="btn blue-btn">Find Out More</button></a>
         </div>
-        <div class="col-sm text-center p-0 mb-3">
+        <div class="col-sm p-0 m-0">
             <div class="black-head class-style-title">Online<br><span class="class-desc">train from home &middot; ages 1.5 and up</span></div>
-{{--            <p class="font-weight-bold">Funky Tutu 4-6 yrs old</p>--}}
-{{--            <p>We have combined two of our most popular classes! Dancers will develop flexibility, balance, and control through classicAL ballet and switch it up for the creative and energetic moves of today’s latest hip hop.</p>--}}
-{{--            <div class="d-flex justify-content-center"><div class="black-bar mb-3"></div></div>--}}
-{{--            <p class="font-weight-bold">Broadway Babies 3-5 yrs old</p>--}}
-{{--            <p>An energetic, fun combination of Jazz and Tap. Dancers will be introduced to the beginning foundations of both styles, while dancing and grooving to energetic music.</p>--}}
-            <p class="font-weight-bold">Hybrid</p>
-            <p>
-                These classes are hybrid classes. That means if you choose to join us in person at any time, you’ll have a spot waiting for you in the classroom. Also whether you choose to participate in person or stay online, you’re more than welcome to participate in the recital. Class size is limited so don’t wait to register.
-{{--                <br>*Note: to register for Hybrid classes, please click the Kings Park Location Schedule on the Classes Page. All Hybrid classes are listed.--}}
-            </p>
-
-            <a href="/classes" target="_blank"><button class="btn black-btn">MORE</button></a>
         </div>
     </div>
 
-    <div style="background: #8a33ac;" class="mt-5 text-white text-center">
+    <div style="background: #8a33ac;" class="text-white text-center">
         <div class="container">
             <h1 class="pt-5">Looking for...</h1>
             <div class="row">
