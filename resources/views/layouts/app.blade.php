@@ -9,6 +9,7 @@
     <meta property="og:url" content="https://kpdancecenter.com">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="description" content="@yield('description', 'For Over 30 Years. One Stop Shop For Dance, Acting, And Voice. Creating Community For All Ages!')">
+    <meta name="facebook-domain-verification" content="eg2vwxkatqc3lxksx50v6jv91l3hi6" />
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
