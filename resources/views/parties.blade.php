@@ -1,9 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="d-flex justify-content-center">
-        <a href="/"><img src="/images/kings-park-dance-logo.png" alt="" style="width: 200px; height: 157px;"></a>
-    </div>
+    @include('logo')
 
     <div class="bg-blue-fade py-5 mt-5 d-flex justify-content-center" style="overflow:hidden; position: relative;">
         <div class="purple-box-head d-flex align-items-center justify-content-center">

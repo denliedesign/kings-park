@@ -2,7 +2,7 @@
     <div class="row pt-4 m-0" id="big-row">
         <div id="big-col" class="col-sm-5">
             <div id="one-med-row" class="row" style="height: 100%;">
-                <div id="med-col" class="col-sm d-flex align-items-center"><img src="/images/kings-park-dance-logo-white.png" alt="" class="img-fluid"></div>
+                <div id="med-col" class="col-sm d-flex align-items-center"><img src="/images/logo-kp-bw.png" alt="" class="img-fluid" style="filter: invert(1)"></div>
                 <div id="med-col" class="col-sm">@include('/contact/create')</div>
             </div>
         </div>
