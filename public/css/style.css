@@ -674,3 +674,29 @@ label {
     max-height: 90px;
     width: auto;
 }
+
+.main-bg {
+    position: relative;
+}
+
+.form-content {
+    position: relative;
+}
+
+.main-logo {
+    position: absolute;
+    top: -160px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.main-form {
+    position: absolute;
+    top: 15%;
+    margin-bottom: -50%;
+    left: 5%;
+    background: black;
+    padding: 25px;
+    border-radius: 10px;
+}

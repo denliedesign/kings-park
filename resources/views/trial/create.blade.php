@@ -30,7 +30,7 @@
     <div class="form-group row">
         <label class="d-none col-sm-0 col-form-label" for="birthdate">Birthdate</label>
         <div class="col-sm-12 d-flex justify-content-center align-items-center">
-            <small class="text-muted">Birthdate </small>
+            <small class="text-white">Birthdate&nbsp;</small>
             <input type="date" class="form-control mb-1" name="birthdate" id="birthdate" required>
         </div>
     </div>

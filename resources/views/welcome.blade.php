@@ -4,21 +4,35 @@
     @include('mobile')
     <div id="laptop-intro" class="d-none d-md-block">
 
-        @include('logo')
-        <div class="row mt-4 mx-0">
-            <div class="col p-0">
-                <div class="text-center">
-                    <h1 class="page-title" style="transform: rotate(0deg)">Start Your Dance Journey Today</h1>
-                    <p>Make your first step the right step with KP Dance Center</p>
-                </div>
-                <div class="pb-4 px-3 d-flex align-items-center justify-content-center">
+        <div class="main-bg">
+            <img src="/images/home-main.jpg" alt="little dancers" class="img-fluid">
+            <div class="main-form" style="max-width: 500px;">
+                <div class="form-content">
+                    <div class="main-logo">
+                        @include('logo')
+                    </div>
+                    <h1 class="page-title text-center" style="transform: rotate(0deg);">Start Your Dance Journey Today</h1>
+                    <h2 class="page-title text-center" style="transform: rotate(0deg); font-size: 1em;">Make your first step the right step<br>with KP Dance Center</h2>
                     @include('/trial/create')
                 </div>
             </div>
-            <div class="col p-0">
-                <img src="/images/kings-park-dance-head-2.jpg" alt="" class="img-fluid">
-            </div>
         </div>
+
+{{--        @include('logo')--}}
+{{--        <div class="row mt-4 mx-0">--}}
+{{--            <div class="col p-0">--}}
+{{--                <div class="text-center">--}}
+{{--                    <h1 class="page-title" style="transform: rotate(0deg)">Start Your Dance Journey Today</h1>--}}
+{{--                    <p>Make your first step the right step with KP Dance Center</p>--}}
+{{--                </div>--}}
+{{--                <div class="pb-4 px-3 d-flex align-items-center justify-content-center">--}}
+{{--                    @include('/trial/create')--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col p-0">--}}
+{{--                <img src="/images/kings-park-dance-head-2.jpg" alt="" class="img-fluid">--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
         <p class="text-center lead my-5">We’ve Taught Over 10,000 Children To Dance</p>
         <div style="height: 90vh;" class="text-center my-5" id="parallax-quotes">
@@ -127,33 +141,29 @@
     </div>
     <div class="bg-blue-fade">
         <div class="container py-5">
-            <div class="text-center main-about-txt">
-                <span class="main-about-span">For over 30 years</span>
-                <br>One stop shop for dance, acting, and voice.<br>Creating community for all ages!
-            </div>
+            <h1 class="text-center page-title" style="transform: rotate(0deg);">For over 30 years</h1>
+            <h2 class="text-center page-title" style="transform: rotate(0deg); font-size: 1em;">One stop shop for dance, acting, and voice. Creating community for all ages!</h2>
             <p class="text-center">KP Dance Center is a family owned and operated studio that has been providing quality dance instruction to the Kings Park and surrounding areas since 1987. Here at KP Dance Center, the enthusiasm of your child to learn dance is what drives us. We pride ourselves in creating an environment that is warm, inviting and reminiscent of "home". </p>
-
-            <div class="d-flex justify-content-center">
-                <img src="/images/march-madness.gif" alt="march madness try a class" class="img-fluid m-3" style="max-height: 500px;">
-            </div>
         </div>
     </div>
 
-    <div class="container mt-4">
-        <div class="card-columns">
-            <div class="card">
-                <a href="https://bestof.longislandpress.com/voting/#/gallery/?group=365642" target="_blank" class="event-register-click">
-                    <img src="/images/best-dance-best-party.gif" alt="best children's dance and party nomination" class="img-fluid" style="margin: 0 auto; display: block;">
-                </a>
-            </div>
-            <div class="card">
-                <img src="/images/kings-park-dance-group.jpeg" alt="" class="img-fluid">
-            </div>
-            <div class="card mt-4 border-0">
-                <p id="mosaic-quote">"Creating <span>confident</span> and <span>enthusiastic</span> dancers one step at a time."</p>
-            </div>
-        </div>
-    </div>
+    <img src="/images/summer-yay.gif" alt="yay summer" class="img-fluid">
+
+{{--    <div class="container mt-4">--}}
+{{--        <div class="card-columns">--}}
+{{--            <div class="card">--}}
+{{--                <a href="https://bestof.longislandpress.com/voting/#/gallery/?group=365642" target="_blank" class="event-register-click">--}}
+{{--                    <img src="/images/best-dance-best-party.gif" alt="best children's dance and party nomination" class="img-fluid" style="margin: 0 auto; display: block;">--}}
+{{--                </a>--}}
+{{--            </div>--}}
+{{--            <div class="card">--}}
+{{--                <img src="/images/kings-park-dance-group.jpeg" alt="" class="img-fluid">--}}
+{{--            </div>--}}
+{{--            <div class="card mt-4 border-0">--}}
+{{--                <p id="mosaic-quote">"Creating <span>confident</span> and <span>enthusiastic</span> dancers one step at a time."</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     <div class="bg-blue-fade-flip">
         <div class="container">
@@ -187,6 +197,29 @@
 
     <div>
         <img src="/images/kings-park-barre.jpg" alt="" class="img-fluid">
+    </div>
+
+    <div>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 m-0 p-0">
+            <img src="/images/class-1.png" alt="class style" class="img-fluid">
+            <img src="/images/class-2.png" alt="class style" class="img-fluid">
+            <img src="/images/class-3.png" alt="class style" class="img-fluid">
+            <img src="/images/class-4.png" alt="class style" class="img-fluid">
+            <img src="/images/class-5.png" alt="class style" class="img-fluid">
+            <img src="/images/class-6.png" alt="class style" class="img-fluid">
+            <img src="/images/class-7.png" alt="class style" class="img-fluid">
+            <img src="/images/class-8.png" alt="class style" class="img-fluid">
+            <img src="/images/class-9.png" alt="class style" class="img-fluid">
+            <img src="/images/class-10.png" alt="class style" class="img-fluid">
+            <img src="/images/class-11.png" alt="class style" class="img-fluid">
+            <img src="/images/class-12.png" alt="class style" class="img-fluid">
+            <img src="/images/class-13.png" alt="class style" class="img-fluid">
+            <img src="/images/class-14.png" alt="class style" class="img-fluid">
+            <img src="/images/class-15.png" alt="class style" class="img-fluid">
+            <img src="/images/class-16.png" alt="class style" class="img-fluid">
+            <img src="/images/class-17.png" alt="class style" class="img-fluid">
+            <img src="/images/class-18.png" alt="class style" class="img-fluid">
+        </div>
     </div>
 
     <div class="row m-0 p-0 text-center">
