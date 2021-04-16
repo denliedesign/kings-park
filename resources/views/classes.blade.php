@@ -73,21 +73,6 @@
 
         </div>
 
-        <div>
-            <img src="/images/summer-1.png" alt="summer camps" class="img-fluid mt-3 shadow rounded">
-            <div class="text-center mt-3">
-                <a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank"><button class="btn btn-lg btn-style-reg">Register Now</button></a>
-            </div>
-            <img src="/images/summer-2.png" alt="summer camps" class="img-fluid mt-3 shadow rounded">
-            <div class="text-center mt-3">
-                <a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank"><button class="btn btn-lg btn-style-reg">Register Now</button></a>
-            </div>
-            <img src="/images/summer-3.png" alt="summer camps" class="img-fluid mt-3 shadow rounded">
-            <div class="text-center mt-3">
-                <a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank"><button class="btn btn-lg btn-style-reg">Register Now</button></a>
-            </div>
-        </div>
-
     </div>
 
 @endsection
