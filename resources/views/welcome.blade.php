@@ -34,7 +34,7 @@
 {{--            </div>--}}
 {{--        </div>--}}
 
-        <p class="text-center lead my-5">We’ve Taught Over 10,000 Children To Dance</p>
+        <p class="page-title-no-rotate text-center lead my-5">We’ve Taught Over 10,000 Children To Dance</p>
         <div style="height: 90vh;" class="text-center my-5" id="parallax-quotes">
             <div class="rellax" data-rellax-speed="-2" data-rellax-zindex="0" id="q-back-layer">
                 <p class="word" id="word6">Our happy place
@@ -125,29 +125,51 @@
         </div>
     </div>
 
-    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 mx-0">
-        <div class="col p-0">
-            <img src="/images/color-block-1.png" alt="dance with friends" class="img-fluid">
-        </div>
-        <div class="col p-0">
-            <img src="/images/color-block-2.png" alt="make great kids" class="img-fluid">
-        </div>
-        <div class="col p-0">
-            <img src="/images/color-block-3.png" alt="healthy and happy" class="img-fluid">
-        </div>
-        <div class="col p-0">
-            <img src="/images/color-block-4.png" alt="tech enabled studio" class="img-fluid">
-        </div>
-    </div>
+{{--    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 mx-0">--}}
+{{--        <div class="col p-0">--}}
+{{--            <img src="/images/color-block-1.png" alt="dance with friends" class="img-fluid">--}}
+{{--        </div>--}}
+{{--        <div class="col p-0">--}}
+{{--            <img src="/images/color-block-2.png" alt="make great kids" class="img-fluid">--}}
+{{--        </div>--}}
+{{--        <div class="col p-0">--}}
+{{--            <img src="/images/color-block-3.png" alt="healthy and happy" class="img-fluid">--}}
+{{--        </div>--}}
+{{--        <div class="col p-0">--}}
+{{--            <img src="/images/color-block-4.png" alt="tech enabled studio" class="img-fluid">--}}
+{{--        </div>--}}
+{{--    </div>--}}
     <div class="bg-blue-fade">
-        <div class="container py-5">
-            <h1 class="text-center page-title" style="transform: rotate(0deg);">For over 30 years</h1>
-            <h2 class="text-center page-title" style="transform: rotate(0deg); font-size: 1em;">One stop shop for dance, acting, and voice. Creating community for all ages!</h2>
-            <p class="text-center">KP Dance Center is a family owned and operated studio that has been providing quality dance instruction to the Kings Park and surrounding areas since 1987. Here at KP Dance Center, the enthusiasm of your child to learn dance is what drives us. We pride ourselves in creating an environment that is warm, inviting and reminiscent of "home". </p>
+        <div class="row m-0 p-0 d-flex align-items-center justify-content-end">
+            <div class="col-sm-7 m-0 p-0">
+                <div class="p-5">
+                    <div>
+                        <h1 class="text-center page-title" style="transform: rotate(0deg);">For over 30 years</h1>
+                        <h2 class="text-center page-title" style="transform: rotate(0deg); font-size: 1em;">One stop shop for dance, acting, and voice. Creating community for all ages!</h2>
+                        <p class="text-center">KP Dance Center is a family owned and operated studio that has been providing quality dance instruction to the Kings Park and surrounding areas since 1987. Here at KP Dance Center, the enthusiasm of your child to learn dance is what drives us. We pride ourselves in creating an environment that is warm, inviting and reminiscent of "home". </p>
+                        <div class="d-flex justify-content-center">
+                            <a href="/about"><button class="btn purple-rectangle-trial mt-2">Learn More</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 m-0 p-0">
+                <div class="d-flex align-items-center justify-content-center">
+                    <iframe height="373" width="569" src="https://www.youtube.com/embed/RRa9LL7CkIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
 
-    <img src="/images/summer-yay.gif" alt="yay summer" class="img-fluid">
+    <div class="row m-0 p-0">
+        <div class="col-sm m-0 p-0">
+            <a href="/images/kp-summer-1.pdf" target="_blank"><img src="/images/kp-summer-1.png" alt="summer" class="img-fluid"></a>
+        </div>
+        <div class="col-sm m-0 p-0">
+            <a href="/images/kp-summer-2.pdf" target="_blank"><img src="/images/kp-summer-2.png" alt="summer" class="img-fluid"></a>
+        </div>
+    </div>
+{{--    <img src="/images/summer-yay.gif" alt="yay summer" class="img-fluid">--}}
 
 {{--    <div class="container mt-4">--}}
 {{--        <div class="card-columns">--}}
@@ -191,36 +213,32 @@
     </div>
     </div>
 
-    <div class="container d-flex align-items-center justify-content-center my-5">
-        <iframe width="1110" height="624" src="https://www.youtube.com/embed/RRa9LL7CkIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
     <div>
         <img src="/images/kings-park-barre.jpg" alt="" class="img-fluid">
     </div>
 
-    <div>
-        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 m-0 p-0">
-            <img src="/images/class-1.png" alt="class style" class="img-fluid">
-            <img src="/images/class-2.png" alt="class style" class="img-fluid">
-            <img src="/images/class-3.png" alt="class style" class="img-fluid">
-            <img src="/images/class-4.png" alt="class style" class="img-fluid">
-            <img src="/images/class-5.png" alt="class style" class="img-fluid">
-            <img src="/images/class-6.png" alt="class style" class="img-fluid">
-            <img src="/images/class-7.png" alt="class style" class="img-fluid">
-            <img src="/images/class-8.png" alt="class style" class="img-fluid">
-            <img src="/images/class-9.png" alt="class style" class="img-fluid">
-            <img src="/images/class-10.png" alt="class style" class="img-fluid">
-            <img src="/images/class-11.png" alt="class style" class="img-fluid">
-            <img src="/images/class-12.png" alt="class style" class="img-fluid">
-            <img src="/images/class-13.png" alt="class style" class="img-fluid">
-            <img src="/images/class-14.png" alt="class style" class="img-fluid">
-            <img src="/images/class-15.png" alt="class style" class="img-fluid">
-            <img src="/images/class-16.png" alt="class style" class="img-fluid">
-            <img src="/images/class-17.png" alt="class style" class="img-fluid">
-            <img src="/images/class-18.png" alt="class style" class="img-fluid">
-        </div>
-    </div>
+{{--    <div>--}}
+{{--        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 m-0 p-0">--}}
+{{--            <img src="/images/class-1.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-2.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-3.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-4.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-5.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-6.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-7.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-8.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-9.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-10.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-11.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-12.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-13.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-14.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-15.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-16.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-17.png" alt="class style" class="img-fluid">--}}
+{{--            <img src="/images/class-18.png" alt="class style" class="img-fluid">--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     <div class="row m-0 p-0 text-center">
         <div class="col-sm p-0 m-0">

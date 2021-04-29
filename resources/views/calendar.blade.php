@@ -5,7 +5,7 @@
 
     <div class="bg-blue-fade py-5 mt-5 d-flex justify-content-center">
         <div class="purple-box-head d-flex align-items-center justify-content-center">
-            <h1 class="text-white text-center page-title-small">Calendar</h1>
+            <h1 class="text-white text-center page-title-small">Calendar of Events</h1>
         </div>
     </div>
 

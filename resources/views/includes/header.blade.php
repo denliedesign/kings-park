@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light d-none d-md-block" style="z-index: 4; font-size: 0.95em;">
+<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light d-none d-md-block" style="z-index: 4; font-size: 0.95em; font-weight: bold;">
     <div class="container-fluid d-flex justify-content-center">
         <div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -10,7 +10,7 @@
                 <li class="nav-item"><a class="nav-link" href="/teams">Competition&nbsp;Teams</a></li>
                 <li class="nav-item"><a class="nav-link" href="/recital">Recital</a></li>
                 <li class="nav-item"><a class="nav-link" href="/employment">Employment</a></li>
-                <li class="nav-item"><a class="nav-link" href="/promotions">Events</a></li>
+{{--                <li class="nav-item"><a class="nav-link" href="/promotions">Events</a></li>--}}
                 <li class="nav-item"><a class="nav-link" href="/calendar">Calendar</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://www.shopnimbly.com/KPdance" target="_blank">Dancewear</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank">Register</a></li>
@@ -47,7 +47,7 @@
             <li class="list-group-item"><a href="/teams">Competition&nbsp;Teams</a></li>
             <li class="list-group-item"><a href="/recital">Recital</a></li>
             <li class="list-group-item"><a href="/employment">Employment</a></li>
-            <li class="list-group-item"><a href="/promotions">Events</a></li>
+{{--            <li class="list-group-item"><a href="/promotions">Events</a></li>--}}
             <li class="list-group-item"><a href="/calendar">Calendar</a></li>
             <li class="list-group-item"><a href="https://www.shopnimbly.com/KPdance" target="_blank">Dancewear</a></li>
             <li class="list-group-item"><a href="https://app3.jackrabbitclass.com/regv2.asp?id=540329" target="_blank">Register</a></li>

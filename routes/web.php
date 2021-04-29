@@ -41,9 +41,9 @@ Route::get('policy', function () {
     return view('policy');
 });
 
-Route::get('promotions', function () {
-    return view('promotions');
-});
+//Route::get('promotions', function () {
+//    return view('promotions');
+//});
 
 Route::get('recital', function () {
     return view('recital');
