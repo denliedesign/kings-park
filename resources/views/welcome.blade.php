@@ -5,13 +5,13 @@
     <div id="laptop-intro" class="d-none d-md-block">
 
         <div class="main-bg">
-            <img src="/images/home-main.jpg" alt="little dancers" class="img-fluid">
+            <img src="/images/kp-home-purple.png" alt="little dancers" class="img-fluid">
             <div class="main-form" style="max-width: 500px;">
                 <div class="form-content">
                     <div class="main-logo">
                         @include('logo')
                     </div>
-                    <h1 class="page-title text-center" style="transform: rotate(0deg);">Start Your Dance Journey Today</h1>
+                    <h1 class="page-title text-center" style="transform: rotate(0deg); font-size: 2.5em;">Start Your Dance Journey Today</h1>
                     <h2 class="page-title text-center" style="transform: rotate(0deg); font-size: 1em;">Make your first step the right step<br>with KP Dance Center</h2>
                     @include('/trial/create')
                 </div>
