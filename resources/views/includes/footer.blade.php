@@ -186,7 +186,7 @@
 
     <div class="row pb-1 mx-0 text-right" id="second-big-row">
         <div class="col">
-            <a href="https://denliedesign.com/" target="_blank" class="text-white"><small>denlie design: dance studio websites</small></a>
+            <a href="https://denliedesign.com/" target="_blank" class="text-white"><small>denlie design: dance website design</small></a>
         </div>
     </div>
 </div>
