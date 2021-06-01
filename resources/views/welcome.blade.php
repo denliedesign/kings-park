@@ -5,7 +5,7 @@
     <div id="laptop-intro" class="d-none d-md-block">
 
         <div class="main-bg">
-            <img src="/images/kp-home-purple.png" alt="little dancers" class="img-fluid">
+            <img src="/images/home-page-june.png" alt="little dancers" class="img-fluid">
             <div class="main-form" style="max-width: 500px;">
                 <div class="form-content">
                     <div class="main-logo">
