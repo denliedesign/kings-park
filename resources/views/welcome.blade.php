@@ -161,14 +161,7 @@
         </div>
     </div>
 
-    <div class="row m-0 p-0">
-        <div class="col-sm m-0 p-0">
-            <a href="/images/kp-summer-1.pdf" target="_blank"><img src="/images/kp-summer-1.png" alt="summer" class="img-fluid"></a>
-        </div>
-        <div class="col-sm m-0 p-0">
-            <a href="/images/kp-summer-2.pdf" target="_blank"><img src="/images/kp-summer-2.png" alt="summer" class="img-fluid"></a>
-        </div>
-    </div>
+
 {{--    <img src="/images/summer-yay.gif" alt="yay summer" class="img-fluid">--}}
 
 {{--    <div class="container mt-4">--}}
