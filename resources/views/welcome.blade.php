@@ -176,7 +176,7 @@
 {{--    </div>--}}
 
 
-    <div>
+    <div class="d-flex justify-content-center">
         <img src="/images/kings-park-barre.jpg" alt="" class="img-fluid">
     </div>
 
