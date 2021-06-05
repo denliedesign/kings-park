@@ -703,12 +703,22 @@ label {
 
 .main-form {
     position: absolute;
-    top: 22%;
-    margin-bottom: -50%;
-    left: 5%;
+    /*top: 10%;*/
+    /*margin-bottom: -50%;*/
+    /*left: 5%;*/
+    bottom: 30px;
+    right: 30px;
     background: black;
-    padding: 25px;
+    padding: 10px;
     border-radius: 10px;
+}
+
+.main-form .col-sm-12 {
+    padding: 0;
+}
+
+.main-form input {
+    font-size: 0.75em;
 }
 
 #recital-table ion-icon {

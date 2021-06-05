@@ -1,7 +1,8 @@
 <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light d-none d-md-block" style="z-index: 4; font-size: 0.95em; font-weight: bold;">
     <div class="container-fluid d-flex justify-content-center">
         <div>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+                <li class="nav-item"><a class="nav-link" href="/"><img src="/images/logo-kp-color.png" alt="" style="width: 100px; height: auto;"></a></li>
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="/policy">Policy</a></li>

@@ -8,10 +8,10 @@
             <img src="/images/home-page-june.png" alt="little dancers" class="img-fluid">
             <div class="main-form" style="max-width: 500px;">
                 <div class="form-content">
-                    <div class="main-logo">
-                        @include('logo')
-                    </div>
-                    <h1 class="page-title text-center" style="transform: rotate(0deg); font-size: 2.5em;">Start Your Dance Journey Today</h1>
+{{--                    <div class="main-logo">--}}
+{{--                        @include('logo')--}}
+{{--                    </div>--}}
+                    <h1 class="page-title text-center" style="transform: rotate(0deg); font-size: 2.25em;">Start Your Dance Journey Today</h1>
                     <h2 class="page-title text-center" style="transform: rotate(0deg); font-size: 1em;">Make your first step the right step<br>with KP Dance Center</h2>
                     @include('/trial/create')
                 </div>
@@ -141,7 +141,7 @@
 {{--    </div>--}}
     <div class="bg-blue-fade">
         <div class="row m-0 p-0 d-flex align-items-center justify-content-end">
-            <div class="col-sm-7 m-0 p-0">
+            <div class="col-sm m-0 p-0">
                 <div class="p-5">
                     <div>
                         <h1 class="text-center page-title" style="transform: rotate(0deg);">For over 30 years</h1>
@@ -151,11 +151,6 @@
                             <a href="/about"><button class="btn purple-rectangle-trial mt-2">Learn More</button></a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-5 m-0 p-0">
-                <div class="d-flex align-items-center justify-content-center">
-                    <iframe height="373" width="569" src="https://www.youtube.com/embed/RRa9LL7CkIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -180,31 +175,6 @@
 {{--        </div>--}}
 {{--    </div>--}}
 
-    <div class="bg-blue-fade-flip">
-        <div class="container">
-            <div class="row m-0 py-5">
-                <div class="col-sm-5 d-flex align-items-end">
-                    <img src="/images/kings-park-safer-studio.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-7 d-flex align-items-center justify-content-center">
-                    <div>
-                        <h1 class="page-title m-0" style="transform: rotate(0deg);">Why KP Dance Center?</h1>
-                        <p id="why-list">
-                            <br><span>1. </span> Small class sizes for more concentrated instruction.
-                            <br><span>2. </span> Well designed curriculum in place for optimal learning and enjoyment.
-                            <br><span>3. </span> Voice and acting classes offered for our aspiring pop idols and movie stars.
-                            <br><span>4. </span> Find a class that fits you. Multiple class offerings and instructor options.
-                            <br><span>5. </span> Floor to ceiling mirrors enable our students to see their feet from any area of the dance floor.
-                            <br><span>6. </span> Staff certified in first aid and CPR.
-                            <br><span>7. </span> Professional safety sprung raised flooring to prevent injury to our dancers.
-                            <br><span>8. </span> Friendly, well qualified staff always available to answer questions.
-                        </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
 
     <div>
         <img src="/images/kings-park-barre.jpg" alt="" class="img-fluid">
@@ -245,6 +215,32 @@
         </div>
         <div class="col-sm p-0 m-0">
             <div class="black-head class-style-title">Online<br><span class="class-desc">train from home &middot; ages 1.5 and up</span></div>
+        </div>
+    </div>
+
+    <div class="bg-blue-fade-flip">
+        <div class="container">
+            <div class="row m-0 py-5">
+                <div class="col-sm-5 d-flex align-items-end">
+                    <img src="/images/kings-park-safer-studio.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-7 d-flex align-items-center justify-content-center">
+                    <div>
+                        <h1 class="page-title m-0" style="transform: rotate(0deg);">Why KP Dance Center?</h1>
+                        <p id="why-list">
+                            <br><span>1. </span> Small class sizes for more concentrated instruction.
+                            <br><span>2. </span> Well designed curriculum in place for optimal learning and enjoyment.
+                            <br><span>3. </span> Voice and acting classes offered for our aspiring pop idols and movie stars.
+                            <br><span>4. </span> Find a class that fits you. Multiple class offerings and instructor options.
+                            <br><span>5. </span> Floor to ceiling mirrors enable our students to see their feet from any area of the dance floor.
+                            <br><span>6. </span> Staff certified in first aid and CPR.
+                            <br><span>7. </span> Professional safety sprung raised flooring to prevent injury to our dancers.
+                            <br><span>8. </span> Friendly, well qualified staff always available to answer questions.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

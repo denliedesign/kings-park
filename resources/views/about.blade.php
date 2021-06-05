@@ -75,6 +75,11 @@
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
+        <div>
+            <div class="d-flex align-items-center justify-content-center">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/RRa9LL7CkIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
             <div class="bg-blue-fade-flip mt-5 py-5">
                 <div class="container text-center">
                     <h1 class="text-center" style="font-weight: 900; text-transform: uppercase;">Master Teachers That KPDC Has Welcomed</h1>
