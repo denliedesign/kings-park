@@ -16,7 +16,7 @@
                     <iframe src="https://app.jackrabbitclass.com/eventcalendar.asp?orgid=540329" frameborder="0" width="100%" height="700"></iframe>
                 </div>
                 <div class="col-sm-5">
-                    <img src="/images/kp-studio-closings.png" alt="list of days studio is closed" class="img-fluid">
+                    <img src="/images/studio-closings-21.png" alt="list of days studio is closed" class="img-fluid">
                 </div>
             </div>
         </div>
