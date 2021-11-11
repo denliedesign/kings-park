@@ -25,7 +25,7 @@
                 <div class="col-sm-7 d-flex align-items-center">
                     <div>
                         <p class="text-center" style="font-weight: 700; font-size: 1.75em; color: #8a33ac; ">
-                            Hassle-Free Birthday Parties Starting At Only $300
+                            Hassle-Free Birthday Parties Starting At Only $350
                         </p>
                         <p class="text-center">
                             Looking for a fun and exciting venue to have your child's birthday party? Look no further! We at KP Dance Center realize how stressful it can be to plan a party, so let us do all the work while you sit back and enjoy a birthday party to always remember. We offer many packages and themes to suit every budget and birthday boy or girl. So stop in today and book the party of your child's dreams.
